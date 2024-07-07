@@ -3,7 +3,7 @@
 # Date - 7/7/2024
 # Description - script to define a function that perfoms basic arithmetic operations
 
-def perform_operation(num1: float, num2: float, operation: str):
+def perform_operation(num1, num2, operation):
     match operation:
         case 'add':
             return num1 + num2
