@@ -13,5 +13,4 @@ class Calculator:
         print(calculation_type)
         return a * b
 
-    def __init__(self, calculation_type):
-        self.calculation_type = calculation_type
+    calculation_type = "Arithmetic Operations"
