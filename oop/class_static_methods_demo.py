@@ -4,6 +4,8 @@
 # Description - A script taht defines a class to perform various calculations
 
 class Calculator:
+    calculation_type = "Arithmetic Operations"
+
     @staticmethod
     def add(a, b):
         return a + b
@@ -12,5 +14,3 @@ class Calculator:
     def multiply(cls, a, b):
         print(calculation_type)
         return a * b
-
-    calculation_type = "Arithmetic Operations"
